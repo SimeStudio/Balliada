@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        applicationId "com.siwiesinger.pinbo"
+        minSdkVersion 9
+        targetSdkVersion 21
+        versionCode 4
+        versionName "2.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile project(':BaseGameUtils')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.google.android.gms:play-services:7.8.0'
+    compile project(':andEngine')
+    compile files('libs/andenginephysicsbox2dextension.jar')
+    compile files('lib/physicsbox2d_so_files.jar')
+}

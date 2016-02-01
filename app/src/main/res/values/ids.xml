@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">249445245293</string>
+    <string name="achievement_balliada_starter">CgkI7cLhoKEHEAIQAg</string>
+    <string name="achievement_balliada_amateur">CgkI7cLhoKEHEAIQAw</string>
+    <string name="achievement_balliada_pro">CgkI7cLhoKEHEAIQBA</string>
+    <string name="achievement_balliada_master">CgkI7cLhoKEHEAIQBQ</string>
+    <string name="achievement_balliada_god">CgkI7cLhoKEHEAIQBg</string>
+    <string name="achievement_balliada_lover">CgkI7cLhoKEHEAIQCA</string>
+    <string name="achievement_true_balliada_lover">CgkI7cLhoKEHEAIQBw</string>
+    <string name="leaderboard_balliada_leaderboard">CgkI7cLhoKEHEAIQAQ</string>
+</resources>
