@@ -166,6 +166,7 @@ public class SplashScene extends Scene{
         activity.interstitialAd.setAdUnitId("ca-app-pub-9260016336188788/3317143555");
 
         activity.adRequest=new com.google.android.gms.ads.AdRequest.Builder()
+                .addTestDevice(activity.adRequest.DEVICE_ID_EMULATOR)
                 .addTestDevice("46BE8122D76407007768BD4900B9A93C")
                 .build();
 
